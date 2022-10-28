@@ -1,6 +1,6 @@
-# pbs-torque
+# PbsPro Snakemake profile for delta2
 
-This profile configures Snakemake to run on the pbspro version used by elta2 (Institute for molecular bioscience, University of Queensland).
+This profile configures Snakemake to run on the pbspro version used by delta2 (Institute for molecular bioscience, University of Queensland).
 
 ## Setup
 
