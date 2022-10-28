@@ -1,6 +1,6 @@
 # pbs-torque
 
-This profile configures Snakemake to run on the [Torque Scheduler](http://www.adaptivecomputing.com/products/open-source/torque/).
+This profile configures Snakemake to run on the pbspro version used by elta2 (Institute for molecular bioscience, University of Queensland).
 
 ## Setup
 
@@ -10,11 +10,11 @@ To deploy this profile, run
 
     mkdir -p ~/.config/snakemake
     cd ~/.config/snakemake
-    cookiecutter https://github.com/Snakemake-Profiles/pbs-torque.git
+    cookiecutter https://github.com/GiulioCentorame/pbspro-delta2.git
 
 Then, you can run Snakemake with
 
-    snakemake --profile pbs-torque ...
+    snakemake --profile pbspro-delta2 ...
 
 
 ### Parameters
